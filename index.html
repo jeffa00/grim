@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- This is an ABSOLUTE link. It point EXACTLY at the file. -->
+            <a href="http://localhost:3131/about/index.html">About Us</a>
+            <br>
+            <!-- This is a RELATIVE link. It point to a location RELATIVE to the root "/" -->
+            <a href="/about/index.html">About Us</a>
+            <br>
+            <!-- This is also a RELATIVE link. It point to a location RELATIVE to the CURRENT DIRECTORY -->
+            <a href="about/index.html">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Hi</h1>
+        <article>
+            <h2>First Post!</h2>
+            <p>This is my post.</p>
+        </article>
+    </main>
+    <aside>
+        <p>This is so cool! &zigrarr;</p>
+    </aside>
+
+    <footer>
+        <!-- Show HTML bits by using entities  -->
+        <!-- https://developer.mozilla.org/en-US/docs/Glossary/Entity -->
+        &lt;script&gt; Copyright &copy; 2017 Code&nbsp;Career&nbsp;Academy &zigrarr;
+    </footer>
+</body>
+
+</html>

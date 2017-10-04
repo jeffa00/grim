@@ -1,0 +1,41 @@
+body {
+    background-color: lightcyan;
+
+    border: 1px solid red;
+    margin: 1rem;
+}
+
+body {
+    /* width: 1024px; */
+    width: 85%;
+}
+
+header, main, aside, footer {
+    padding: 1rem;
+}
+
+header {
+    background-color: khaki;
+}
+
+main {
+    background-color: lightgoldenrodyellow;
+    /* border: 3px dashed green; */
+}
+
+aside {
+    background-color: lightsalmon;
+}
+
+footer {
+    background-color: lightskyblue;
+}
+img {
+    width: 85%;
+}
+
+/* * {
+    border: 1px solid red;
+    margin: 1rem;
+    padding: 1rem;
+} */
